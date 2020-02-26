@@ -19,8 +19,8 @@
 @echo off
 SETLOCAL enableextensions enabledelayedexpansion
 
-set EXE=CCLauncher_Client.exe
-set START_CCLauncher="" "C:\CCLauncher_Client\CCLauncher_Client.exe"
+set EXE=java.exe
+set START_CCLauncher="" "C:\CCLauncher-Client-3\CCLauncher_Client_3.0.exe"
 
 FOR /F %%x IN ('tasklist /NH /FI "IMAGENAME eq %EXE%"') DO IF %%x == %EXE% goto ComcaveFound
 
